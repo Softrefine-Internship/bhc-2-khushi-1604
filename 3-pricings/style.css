@@ -1,1 +1,92 @@
 /* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.main-container {
+  width: 1200px;
+  margin: 0 auto;
+  align-content: center;
+}
+.up {
+  width: 700px;
+  margin: 0 auto;
+  align-content: center;
+}
+.small-text {
+  text-align: center;
+  margin-top: 30px;
+  color: blue;
+}
+.big-text {
+  text-align: center;
+  font-size: 44px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.many-text {
+  text-align: center;
+  margin-top: 30px;
+  line-height: 1.7;
+  font-size: 18px;
+  color: rgb(108, 106, 106);
+}
+.box-conatiner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-left: 60px;
+}
+.boxs {
+  margin-top: 60px;
+  margin-left: 10px;
+}
+.text1 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.price {
+  display: flex;
+}
+.price1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.price2 {
+  align-content: end;
+}
+.light-price {
+  margin-top: 10px;
+  color: rgb(169, 162, 162);
+}
+
+.buy {
+  margin-top: 50px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(68, 68, 231);
+}
+.dark-text {
+  margin-top: 50px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  stroke: white;
+  fill: blue;
+}
