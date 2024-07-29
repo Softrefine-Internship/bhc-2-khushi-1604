@@ -1,1 +1,64 @@
 /* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+body {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 1200px;
+  display: flex;
+  text-align: start;
+}
+.main-conatiner {
+  display: flex;
+  gap: 90px;
+  background-color: rgb(1, 1, 36);
+  align-items: center;
+}
+img {
+  width: 50vw;
+  scale: 1;
+  margin: 10px 5px 20px;
+}
+.text {
+  color: white;
+  width: 50vw;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 450px;
+  margin-right: 50px;
+}
+
+.first {
+  justify-self: center;
+  font-size: small;
+  text-align: start;
+  color: rgb(158, 158, 248);
+}
+
+.main-head {
+  font-size: 44px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: smaller;
+  margin-bottom: 20px;
+}
+
+.help {
+  background-color: #28303c;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 150px;
+}
