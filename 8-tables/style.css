@@ -1,1 +1,61 @@
 /* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: 100px auto;
+}
+.userinfo {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main {
+  font-weight: 600;
+}
+.upper-text {
+  display: flex;
+  gap: 564px;
+}
+.add {
+  align-self: center;
+  padding: 8px;
+  margin-top: 30px;
+  background-color: blue;
+  color: white;
+  border-radius: 3px;
+}
+.mytable {
+  margin-top: 45px;
+}
+
+th {
+  color: #343a40;
+}
+
+th,
+td {
+  text-align: start;
+  border-bottom: 1px solid #ced4da;
+  padding: 20px 0;
+}
+
+td {
+  color: #868e96;
+}
+.last {
+  text-decoration: none;
+  color: blue;
+}
+
+table {
+  text-align: start;
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 100%;
+}
