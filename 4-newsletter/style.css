@@ -1,1 +1,66 @@
 /* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.outer {
+  background-color: white;
+  height: 550px;
+}
+.container {
+  background-image: -webkit-radial-gradient(
+    bottom,
+    rgb(84, 3, 84),
+    rgb(0, 0, 27)
+  );
+  height: 500px;
+  width: 1430px;
+  border-radius: 20px;
+  margin: 20px 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.6;
+}
+
+.big-text {
+  color: white;
+  font-size: 44px;
+  margin: auto;
+  font-weight: bold;
+}
+
+.small-text {
+  font-size: 18px;
+  color: rgb(181, 177, 177);
+  margin: auto;
+  width: 600px;
+}
+
+.label {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.text-box {
+  background-color: rgba(75, 88, 119, 0.371);
+  color: rgb(133, 128, 128);
+  width: 350px;
+  margin-right: 10px;
+  text-align: left;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.btn {
+  background-color: white;
+  padding: 10px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+}
