@@ -8,7 +8,7 @@
 .main-container {
   /* width: 100%; */
   height: 100vh;
-  background-image: linear-gradient(135deg, white, #edacd3);
+  background: linear-gradient(135deg, rgba(102, 13, 126, 0.159), #cc94b520);
 }
 
 /* Navbar */
@@ -24,19 +24,20 @@
 }
 
 .main-nav-ele {
-  margin: 33px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 20px;
+}
+.nav-element {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 .nav-element:hover {
   background-color: grey;
   padding: 5px;
   color: white;
-}
-
-.nav-element {
-  margin-left: 50px;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
 }
 
 .login-btn {
@@ -60,9 +61,9 @@
   font-size: 12px;
   margin-left: 35%;
   margin-right: 35%;
-  padding: 8px;
-  display: flex;
-  justify-content: space-between;
+  letter-spacing: 1px;
+  color: #333;
+  padding: 10px;
   border: solid #868e96 2px;
   border-radius: 20px;
   border-color: #dee2e6;
@@ -71,14 +72,16 @@
 .read-more-link {
   text-decoration: none;
   font-weight: bold;
-  color: #1098ad;
+  color: #1027ad;
   align-self: center;
 }
 
 .big-heading {
   color: #212529;
   font-size: 60px;
+  font-weight: 700;
   width: 600px;
+  line-height: 1;
   text-align: center;
   margin: 30px auto;
 }
@@ -96,6 +99,7 @@
 .getbtn {
   width: 250px;
   margin: 35px 500px;
+  cursor: pointer;
 }
 
 .get-started {
@@ -106,10 +110,18 @@
   border-radius: 5px;
   font-weight: bold;
   margin-right: 25px;
+  cursor: pointer;
 }
-
+.get-started:hover {
+  background-color: #364ec786;
+  color: #212529;
+}
 .learn-more {
   text-decoration: none;
   color: #212529;
   font-weight: bold;
+  cursor: pointer;
+}
+.learn-more:hover {
+  color: rgb(116, 40, 86);
 }

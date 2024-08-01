@@ -16,7 +16,10 @@ body {
   font-weight: bold;
   font-size: medium;
   text-align: start;
-  background-image: linear-gradient(rgb(241, 214, 241), rgb(238, 228, 230));
+  background-image: linear-gradient(
+    rgba(252, 248, 252, 0.566),
+    rgb(238, 228, 230)
+  );
 }
 
 .head {
@@ -32,13 +35,14 @@ body {
 }
 .name-field {
   display: flex;
-  gap: 10px;
+  gap: 30px;
 }
 input[type="text"],
 input[type="text"]:enabled {
   margin-top: 5px;
   margin-bottom: 10px;
-  border: 2px solid #c5c9cf;
+  border: 1px solid #c5c9cf;
+  box-shadow: 0.5px 0.3px lightgrey;
   padding: 5px;
   height: auto;
   width: 100%;
@@ -71,6 +75,10 @@ textarea {
   color: #fff;
   background-color: #4848e0;
   cursor: pointer;
+}
+.button:hover {
+  color: black;
+  background-color: rgb(139, 139, 218);
 }
 .toggle-section p {
   margin-left: 20px;
