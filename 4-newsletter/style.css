@@ -10,11 +10,7 @@
   height: 550px;
 }
 .container {
-  background-image: -webkit-radial-gradient(
-    bottom,
-    rgb(84, 3, 84),
-    rgb(0, 0, 27)
-  );
+  background: linear-gradient(#0b0513, #3f1c42);
   height: 500px;
   width: 1430px;
   border-radius: 20px;
@@ -50,8 +46,9 @@
 }
 
 .text-box {
-  background-color: rgba(75, 88, 119, 0.371);
+  background-color: rgba(112, 127, 160, 0.186);
   color: rgb(133, 128, 128);
+  border: 0;
   width: 350px;
   margin-right: 10px;
   text-align: left;
@@ -63,4 +60,9 @@
   padding: 10px 10px;
   font-size: 12px;
   border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: grey;
+  color: white;
 }

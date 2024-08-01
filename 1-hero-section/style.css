@@ -14,6 +14,7 @@
 /* Navbar */
 .main-nav {
   display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -23,7 +24,12 @@
 }
 
 .main-nav-ele {
-  margin: 40px auto;
+  margin: 33px auto;
+}
+.nav-element:hover {
+  background-color: grey;
+  padding: 5px;
+  color: white;
 }
 
 .nav-element {
@@ -39,6 +45,7 @@
   text-decoration: none;
   color: black;
   font-weight: bold;
+  cursor: pointer;
 }
 
 /* hero section */
@@ -50,10 +57,12 @@
 .read {
   color: #868e96;
   background-color: white;
-  font-size: 14px;
+  font-size: 12px;
   margin-left: 35%;
   margin-right: 35%;
   padding: 8px;
+  display: flex;
+  justify-content: space-between;
   border: solid #868e96 2px;
   border-radius: 20px;
   border-color: #dee2e6;
@@ -63,11 +72,12 @@
   text-decoration: none;
   font-weight: bold;
   color: #1098ad;
+  align-self: center;
 }
 
 .big-heading {
   color: #212529;
-  font-size: 58px;
+  font-size: 60px;
   width: 600px;
   text-align: center;
   margin: 30px auto;
@@ -78,14 +88,14 @@
   width: 700px;
   margin: 0 auto;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.8;
   font-weight: none;
 }
 
 .getbtn {
   width: 250px;
-  margin: 35px auto;
+  margin: 35px 500px;
 }
 
 .get-started {

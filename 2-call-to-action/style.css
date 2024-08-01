@@ -16,11 +16,12 @@ body {
 .main-conatiner {
   display: flex;
   gap: 90px;
-  background-color: rgb(1, 1, 36);
+  background-color: rgb(4, 4, 34);
   align-items: center;
 }
 img {
   width: 50vw;
+  height: 100%;
   scale: 1;
   margin: 10px 5px 20px;
 }
@@ -52,6 +53,7 @@ img {
 .description {
   font-size: smaller;
   margin-bottom: 20px;
+  color: rgba(232, 220, 220, 0.689);
 }
 
 .help {
@@ -61,4 +63,6 @@ img {
   padding: 5px 10px;
   border-radius: 5px;
   width: 150px;
+  cursor: pointer;
+  border: 0;
 }

@@ -43,6 +43,10 @@
 .boxs {
   margin-top: 60px;
   margin-left: 10px;
+  border-right: 0.5px groove rgba(180, 172, 172, 0.151);
+}
+.boxs:last-child {
+  border: none;
 }
 .text1 {
   font-weight: 600;
@@ -69,7 +73,13 @@
   padding: 10px;
   border-radius: 5px;
   color: white;
+  border: 0;
+  cursor: pointer;
   background-color: rgb(68, 68, 231);
+}
+.buy:hover {
+  background-color: lightblue;
+  color: black;
 }
 .dark-text {
   margin-top: 50px;

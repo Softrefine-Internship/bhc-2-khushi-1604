@@ -70,6 +70,7 @@ textarea {
   width: 100%;
   color: #fff;
   background-color: #4848e0;
+  cursor: pointer;
 }
 .toggle-section p {
   margin-left: 20px;
